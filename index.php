@@ -35,8 +35,8 @@
       <hr>
     <div id="block" >
       <h3>Your number phone:</h3>
-      <input  onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength=11 minlength=11 id=numb class="inp">
-      <input type="submit" value="Далее" id="phone" class="sun" placeholder="Phone number" >
+      <input  onkeypress='return event.charCode >= 48 && event.charCode <= 57' placeholder="Phone number" maxlength=11 minlength=11 id=numb class="inp">
+      <input type="submit" value="Далее" id="phone" class="sun"  >
     </div>
     <div id=code>
       <input name="" id="send_code" class="inp" onkeypress='return event.charCode >= 48 && event.charCode <= 57'  maxlength=6 placeholder="SMS Code">
